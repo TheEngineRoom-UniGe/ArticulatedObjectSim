@@ -3,7 +3,7 @@
 - git: {local-name: head_action,                  uri: 'https://github.com/pal-robotics/head_action.git', version: 'indigo-devel'}
 - git: {local-name: hey5_description,             uri: 'https://github.com/pal-robotics/hey5_description.git', version: 'master'}
 - git: {local-name: pal_gazebo_plugins,           uri: 'https://github.com/pal-robotics/pal_gazebo_plugins.git', version: 'melodic-devel'}
-- git: {local-name: pal_gazebo_worlds,            uri: 'https://github.com/sha3sha3/ArticulaterObjectWorld.git', version: 'master'}
+- git: {local-name: pal_gazebo_worlds,            uri: 'https://github.com/TheEngineRoom-UniGe/ArticulaterObjectWorld.git', version: 'master'}
 - git: {local-name: pal_gripper,                  uri: 'https://github.com/pal-robotics/pal_gripper.git', version: 'kinetic-devel'}
 - git: {local-name: pal_hardware_gazebo,          uri: 'https://github.com/pal-robotics/pal_hardware_gazebo.git', version: 'melodic-devel'}
 - git: {local-name: pal_hardware_interfaces,      uri: 'https://github.com/pal-robotics/pal_hardware_interfaces.git', version: 'indigo-devel'}
@@ -30,8 +30,8 @@
 - git: {local-name: tiago_dual_moveit_config,     uri: 'https://github.com/pal-robotics/tiago_dual_moveit_config.git', version: 'kinetic-devel'}
 - git: {local-name: tiago_dual_navigation,        uri: 'https://github.com/pal-robotics/tiago_dual_navigation.git', version: 'kinetic-devel'}
 - git: {local-name: tiago_dual_robot,             uri: 'https://github.com/pal-robotics/tiago_dual_robot.git', version: 'kinetic-devel'}
-- git: {local-name: tiago_dual_simulation,        uri: 'https://github.com/sha3sha3/ArticulatedObjectSim.git', version: 'master'}
-- git: {local-name: tiago_dual_tutorials,         uri: 'https://github.com/sha3sha3/TiagoDualTut.git', version: 'master'}
+- git: {local-name: tiago_dual_simulation,        uri: 'https://github.com/TheEngineRoom-UniGe/ArticulatedObjectSim.git', version: 'master'}
+- git: {local-name: tiago_dual_tutorials,         uri: 'https://github.com/TheEngineRoom-UniGe/TiagoDualTut.git', version: 'master'}
 - git: {local-name: pal_navigation_cfg_public,    uri: 'https://github.com/pal-robotics/pal_navigation_cfg_public.git', version: 'master'}
 - git: {local-name: ddynamic_reconfigure_python,  uri: 'https://github.com/pal-robotics/ddynamic_reconfigure_python', version: 'master'}
 - git: {local-name: dynamic_introspection,        uri: 'https://github.com/pal-robotics/dynamic_introspection', version: 'kinetic-devel'}
