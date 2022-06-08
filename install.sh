@@ -2,7 +2,7 @@
 set -x
 sudo apt update
 sudo mkdir ~/simulation_ws
-echo $'#!/bin/bash\nset -x\nsource ~/ROSPlan/devel/setup.bash\neval "$1"' > ~/interface.sh
+echo $'#!/bin/bash\nset -x\nsource ~/simulation_ws/devel/setup.bash\neval "$1"' > ~/interface.sh
 sudo chmod +x ~/interface.sh
 sudo apt --assume-yes install curl
 sudo sh -c '. /etc/lsb-release && echo "deb http://packages.ros.org.ros.informatik.uni-freiburg.de/ros/ubuntu $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
