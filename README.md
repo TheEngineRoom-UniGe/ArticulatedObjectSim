@@ -2,7 +2,7 @@
 Ubuntu 18.0.4 LTS OR WSL2 with Ubuntu 18.0.4 LTS
 # Installation
 ```
-curl -s https://raw.githubusercontent.com/sha3sha3/ArticulatedObjectSim/master/install.sh | sudo bash
+curl -s https://raw.githubusercontent.com/TheEngineRoom-UniGe/ArticulatedObjectSim/master/install.sh | sudo bash
 ```
 # Rnning Simulation
 ```
