@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <!-- send articulated object urdf to param server -->
+  
+  <param name="articulated_object_description" command="$(find xacro)/xacro.py $(find tiago_dual_gazebo)/launch/articulated_object.sdf " />
+  <arg name="aopose" default="-x 0 -y 0 -z 0.0 -R 0.0 -P 0.0 -Y 0.0"/>
+  <arg name="model_name" default="articulated_object"/>
+  <!-- push articulated object to factory and spawn robot in gazebo -->
+  <node name="spawn_articulated_object" pkg="gazebo_ros" type="spawn_model" args="-sdf -param articulated_object_description $(arg aopose) -model $(arg model_name)" respawn="false" output="screen" />
+</launch>
